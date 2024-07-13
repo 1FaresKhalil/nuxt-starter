@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Helixa';
+  src: url('/assets/fonts/Helixa-Regular.eot');
+  src:
+    url('/assets/fonts/Helixa-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Helixa-Regular.woff2') format('woff2'),
+    url('/assets/fonts/Helixa-Regular.woff') format('woff'),
+    url('/assets/fonts/Helixa-Regular.ttf') format('truetype'),
+    url('/assets/fonts/Helixa-Regular.svg#Helixa-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helixa Book';
+  src: url('/assets/fonts/Helixa-Book.eot');
+  src:
+    url('/assets/fonts/Helixa-Book.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Helixa-Book.woff2') format('woff2'),
+    url('/assets/fonts/Helixa-Book.woff') format('woff'),
+    url('/assets/fonts/Helixa-Book.ttf') format('truetype'),
+    url('/assets/fonts/Helixa-Book.svg#Helixa-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helixa';
+  src: url('/assets/fonts/Helixa-Bold.eot');
+  src:
+    url('/assets/fonts/Helixa-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Helixa-Bold.woff2') format('woff2'),
+    url('/assets/fonts/Helixa-Bold.woff') format('woff'),
+    url('/assets/fonts/Helixa-Bold.ttf') format('truetype'),
+    url('/assets/fonts/Helixa-Bold.svg#Helixa-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.helxa-book {
+  font-family: 'Helixa Book', sans-serif;
+}
+.helxa-reg {
+  font-family: 'Helixa', sans-serif;
+}
+.helxa-bold {
+  font-family: 'Helixa', sans-serif;
+  font-weight: bold;
+}
