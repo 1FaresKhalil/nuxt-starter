@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   tailwindcss: {
-    cssPath: '~/assets/css/tailwind.scss',
+    cssPath: '~/assets/css/main.scss',
   },
   modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt'],
   shadcn: {

@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Navbar />
     <div class="main-container">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Id similique
       iusto corrupti natus atque sed, aperiam deleniti excepturi, minima aliquam
