@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   tailwindcss: {
     cssPath: '~/assets/css/main.scss',
   },
-  modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt'],
+  modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt', '@nuxtjs/i18n'],
   shadcn: {
     /**
      * Prefix for all the imported components
@@ -30,5 +30,25 @@ export default defineNuxtConfig({
         },
       },
     },
+  },
+  i18n: {
+    strategy: 'prefix_except_default',
+    // lazy: true,
+    langDir: 'locales',
+    locales: [
+      {
+        code: 'en',
+        iso: 'en',
+        name: 'en',
+        file: 'en.json',
+      },
+      {
+        code: 'ar',
+        iso: 'ar',
+        name: 'ar',
+        file: 'ar.json',
+      },
+    ],
+    vueI18n: './i18n.config.ts',
   },
 });
