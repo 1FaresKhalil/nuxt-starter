@@ -8,7 +8,14 @@ export default defineNuxtConfig({
   tailwindcss: {
     cssPath: '~/assets/css/main.scss',
   },
-  modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt', '@nuxtjs/i18n'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    'shadcn-nuxt',
+    '@nuxtjs/i18n',
+    '@nuxt/icon',
+    '@pinia/nuxt',
+    '@vueuse/nuxt',
+  ],
   shadcn: {
     /**
      * Prefix for all the imported components
